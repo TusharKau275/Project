@@ -7,6 +7,7 @@
 }
 html{
   scroll-behavior: smooth;
+  background: #0b1220;
 }
 
 .autoshow{
@@ -107,12 +108,14 @@ body.is-transitioned{
   --ink2: #d4dfef;
   --ink3: #94a3b8;
   --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  color-scheme: dark;
 }
 
 body{
   font-family: Poppins, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
   min-height:100vh;
   background: var(--bg-1);
+  background-color: #0b1220;
   color: #e6eef8;
   -webkit-font-smoothing:antialiased;
 }
@@ -424,8 +427,7 @@ body{font-size:16px;line-height:1.5}
    background: var(--bg); }
 
 #education {
-  /* margin-top: 20vh; */
-  padding: 72px 0 96px;
+  padding: 50px 0 96px;
 }
 
 .section-label,
@@ -439,12 +441,14 @@ body{font-size:16px;line-height:1.5}
   font-size: 0.85rem;
   text-transform: uppercase;
   letter-spacing: 0.18em;
+  margin-top: .0.50rem;
   margin-bottom: 0.75rem;
 }
 
 .section-title {
   font-size: clamp(28px, 4vw, 40px);
   color: var(--ink);
+  margin-top:10px;
   margin-bottom: 0.75rem;
 }
 
@@ -540,4 +544,11 @@ body{font-size:16px;line-height:1.5}
 
 @view-transition{
   navigation: auto;
+}
+
+::view-transition-group(root),
+::view-transition-image-pair(root),
+::view-transition-old(root),
+::view-transition-new(root) {
+  background: #0b1220;
 }

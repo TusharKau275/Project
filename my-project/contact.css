@@ -8,7 +8,9 @@
 html{
   scroll-behavior: smooth;
 }
-
+@view-transition{
+  navigation: auto;
+}
 .autoshow{
   animation: fadein 0.6s ease-out;
   animation-timeline: view();
@@ -83,4 +85,8 @@ body{
   background: var(--bg-1);
   color: #e6eef8;
   -webkit-font-smoothing:antialiased;
+}
+
+@view-transition{
+  navigation: auto;
 }
