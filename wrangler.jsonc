@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "portfolio-tushar-kaushik",
+  "compatibility_date": "2026-07-10",
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    "directory": "my-project"
+  },
+  "compatibility_flags": [
+    "nodejs_compat"
+  ]
+}
