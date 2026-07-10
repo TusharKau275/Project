@@ -1,4 +1,4 @@
-# Tushar Kaushik — Personal Portfolio
+# Tushar Kaushik — Personal Portfolio(DEPLOYMENT UNDER PROCESS)
 
 A clean, responsive personal portfolio website built with **Vite** and **Tailwind CSS v4**, featuring smooth scroll animations, a mobile-friendly navbar, and a multi-page layout.
 
