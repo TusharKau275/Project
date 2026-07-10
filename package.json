@@ -1,0 +1,15 @@
+{
+  "name": "project",
+  "private": true,
+  "workspaces": [
+    "my-project"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace my-project",
+    "build": "npm run build --workspace my-project",
+    "preview": "npm run preview --workspace my-project"
+  },
+  "dependencies": {
+    "lenis": "^1.3.23"
+  }
+}
